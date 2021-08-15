@@ -1,0 +1,25 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Global properties */
+html {width:100%}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#9d9d9d;min-width:984px;background:url(../images/body.jpg) center 0 repeat}
+;margin:-220% 0 0 0;overflow:hidden;padding:0}
+a {color:#00a9ff;outline:none}
+a:hover {text-decoration:none}
+.extra-wrap {overflow:hidden}
+.bg {width:100%;background:url(../images/bg.jpg) center 0 no-repeat}
+.main {width:984px;padding:0;margin:0 auto;font-size:0.875em;line-height:1.285em}
+
+
+.buttons a:hover {cursor:pointer}
+.menu li a, .list-1 li a, .button-2, .logo {text-decoration:none}
+/* header */
+header {width:100%;margin-bottom:-16px;position:relative;z-index:1}
+.row-2 {width:100%;min-height:85px;position:relative;z-index:1}
+
+.menu {width:100%}
+.menu li {float:left;position:relative;margin-right:1px}
+.menu li.last-item {margin:0}
+.menu li a {display:inline-block;width:196px;font-size:17px;line-height:1.22em;padding:18px 0 36px;margin-top:10px;color:#fff;background:#000;text-align:center;border-radius:18px 18px 0 0;-moz-border-radius:18px 18px 0 0;-webkit-border-radius:18px 18px 0 0}
+.menu li a.active, .menu li a:hover {color:#0f0f0f;background:#fff;padding:28px 0 36px;margin:0}

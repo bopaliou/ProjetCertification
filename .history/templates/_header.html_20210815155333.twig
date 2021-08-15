@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <header>
+				<div class="row-2">
+					<nav>
+						<ul class="menu">
+						  <li><a class="active" href="{{ path('home') }}">Acceuil</a></li>
+						  <li><a href="#">Documents</a></li>
+						  <li><a href="{{ path('app_login') }}">Se connecter</a></li>
+						  <li><a href="{{ path('app_register') }}">S'inscrire</a></li>
+                          {% if app.user %}
+                               <li><a href="#">S'inscrire</a></li>
+                          {% endif %}
+						  
+						</ul>
+					</nav>
+				</div>
+				
+			</header>
+{% endblock %}

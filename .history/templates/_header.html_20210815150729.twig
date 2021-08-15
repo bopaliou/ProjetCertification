@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <header>
+				<div class="row-1">
+					<h1>
+						<a class="logo" href="index.html">Point.co</a>
+						<strong class="slog">The most creative ideas</strong>
+					</h1>
+					<form id="search-form" action="" method="post" enctype="multipart/form-data">
+						<fieldset>
+							<div class="search-form">					
+								<input type="text" name="search" value="Type Keyword Here" onBlur="if(this.value=='') this.value='Type Keyword Here'" onFocus="if(this.value =='Type Keyword Here' ) this.value=''" />
+								<a href="#" >Search</a>									
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="row-2">
+					<nav>
+						<ul class="menu">
+						  <li><a class="active" href="index.html">Home Page</a></li>
+						  <li><a href="news.html">Our News</a></li>
+						  <li><a href="services.html">Our Services</a></li>
+						  <li><a href="products.html">Our Products</a></li>
+						  <li class="last-item"><a href="contacts.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				
+			</header>
+{% endblock %}

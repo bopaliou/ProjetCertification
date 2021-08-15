@@ -1,0 +1,62 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+/* Global properties */
+html {width:100%}
+body {font-family:Arial, Helvetica, sans-serif;font-size:100%;color:#9d9d9d;min-width:984px;background:url(../images/body.jpg) center 0 repeat}
+.ic, .ic a {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
+a {color:#00a9ff;outline:none}
+a:hover {text-decoration:none}
+.col-1, .col-2, .col-3, .col-4  {float:left}
+.wrapper {width:100%;overflow:hidden}
+.extra-wrap {overflow:hidden}
+.bg {width:100%;background:url(../images/bg.jpg) center 0 no-repeat}
+.main {width:984px;padding:0;margin:0 auto;font-size:0.875em;line-height:1.285em}
+p {margin-bottom:18px}
+.p0 {margin-bottom:0px}
+.p1 {margin-bottom:6px}
+.p2 {margin-bottom:15px}
+.p3 {margin-bottom:30px}
+.p4 {margin-bottom:45px}
+.p5 {margin-bottom:50px}
+.reg {text-transform:uppercase}
+.fleft {float:left}
+.fright {float:right}
+.alignright {text-align:right}
+.aligncenter {text-align:center}
+.title {margin-bottom:18px}
+.it {font-style:italic}
+.letter {letter-spacing:-1px}
+.color-1 {color:#00a9ff}
+.color-2 {color:#a2c902}
+.color-3 {color:#fabb0c}
+.color-4 {color:#0f0f0f}
+/* boxes */
+.margin-bot {margin-bottom:35px}
+.spacing {margin-right:35px}
+.indent {padding:0 0 0px 32px}
+.indent2 {padding-top:10px}
+.indent3 {padding-top:38px}
+.indent4 {padding:26px 0 0px 32px}
+.indent5 {padding-top:22px}
+.indent-bot {margin-bottom:22px}
+.indent-bot2 {margin-bottom:19px}
+.indent-bot3 {margin-bottom:45px}
+.img-indent-bot {margin-bottom:25px}
+.img-indent {float:left;margin:0 10px 0px 0}
+.img-indent2 {float:left;margin:0 15px 0px 0}
+.img-indent3 {float:left;margin:0 20px 0px 0}
+.img-indent4 {float:left;margin:0 28px 0px 0}
+.img-indent-r {float:right;margin:4px 0px 0px 15px}
+.prev-indent-bot {margin-bottom:10px}
+.buttons a:hover {cursor:pointer}
+.menu li a, .list-1 li a, .button-2, .logo {text-decoration:none}
+/* header */
+header {width:100%;margin-bottom:-16px;position:relative;z-index:1}
+.row-2 {width:100%;min-height:85px;position:relative;z-index:1}
+
+.menu {width:100%}
+.menu li {float:left;position:relative;margin-right:1px}
+.menu li.last-item {margin:0}
+.menu li a {display:inline-block;width:196px;font-size:17px;line-height:1.22em;padding:18px 0 36px;margin-top:10px;color:#fff;background:#000;text-align:center;border-radius:18px 18px 0 0;-moz-border-radius:18px 18px 0 0;-webkit-border-radius:18px 18px 0 0}
+.menu li a.active, .menu li a:hover {color:#0f0f0f;background:#fff;padding:28px 0 36px;margin:0}

@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <header>
+				<div class="row-1">
+					<h1>
+						<a class="logo" href="index.html">Point.co</a>
+						<strong class="slog">The most creative ideas</strong>
+					</h1>
+					<form id="search-form" action="" method="post" enctype="multipart/form-data">
+						<fieldset>
+							<div class="search-form">					
+								<input type="text" name="search" value="Type Keyword Here" onBlur="if(this.value=='') this.value='Type Keyword Here'" onFocus="if(this.value =='Type Keyword Here' ) this.value=''" />
+								<a href="#" onClick="document.getElementById('search-form').submit()">Search</a>									
+							</div>
+						</fieldset>
+					</form>
+				</div>
+				<div class="row-2">
+					<nav>
+						<ul class="menu">
+						  <li><a class="active" href="index.html">Home Page</a></li>
+						  <li><a href="news.html">Our News</a></li>
+						  <li><a href="services.html">Our Services</a></li>
+						  <li><a href="products.html">Our Products</a></li>
+						  <li class="last-item"><a href="contacts.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="row-3">
+					<div class="slider-wrapper">
+						<div class="slider">
+						  <ul class="items">
+							<li><img src="public/images/slider-img1.jpg" alt="">
+								<strong class="banner">
+									<strong class="b1">our solidity</strong>
+									<strong class="b2">is equity</strong>
+									<strong class="b3">Innovation and flexibility, quick and<br> high results - oriented work</strong>
+								</strong>
+							</li>
+							<li><img src="public/images/slider-img2.jpg" alt="">
+								<strong class="banner">
+									<strong class="b1">our aim is</strong>
+									<strong class="b2">Dedicated</strong>
+									<strong class="b3">To conducting business affairs using<br>the highest standards</strong>
+								</strong>
+							</li>
+							<li><img src="images/slider-img3.jpg" alt="">
+								<strong class="banner">
+									<strong class="b1">encourage</strong>
+									<strong class="b2">Business</strong>
+									<strong class="b3">Success and growth with our<br>professionals of this sphere</strong>
+								</strong>
+							</li>
+						  </ul>
+						  <a class="prev" href="#">prev</a>
+						  <a class="next" href="#">prev</a>
+						</div>
+					</div>
+				</div>
+			</header>
+{% endblock %}

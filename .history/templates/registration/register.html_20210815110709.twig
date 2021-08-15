@@ -3,9 +3,8 @@
 {% block title %}Inscription{% endblock %}
 
 {% block body %}
-    {% include "_header.html.twig" %}
     <div class="container mt-3" style="width:800px;">
-        <div class="card  bg-light">
+        <div class="card">
             <center><div class="card-head">
                 <h1 class="h3 mb-3 font-weight-normal mt-4">Veuillez-vous inscrire s'il vous plait!</h1>
             </div></center>
@@ -19,7 +18,7 @@
                     {{ form_row(registrationForm.lieuNaissance) }}
                     {{ form_row(registrationForm.email) }}
                     {{ form_row(registrationForm.plainPassword, {
-                        label: 'Mot de passe'
+                        label: 'Password'
                     }) }}
                     {{ form_row(registrationForm.agreeTerms) }}
 

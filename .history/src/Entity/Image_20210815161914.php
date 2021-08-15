@@ -59,7 +59,6 @@ class Image
     /**
      * @ORM\ManyToOne(targetEntity=Document::class, inversedBy="images")
      */
-    #[Groups(['read:image','write:image'])]
     private $document;
 
     public function getId(): ?int

@@ -7,7 +7,6 @@ use Doctrine\ORM\Mapping as ORM;
 use App\Repository\ImageRepository;
 use ApiPlatform\Core\Annotation\ApiResource;
 use Symfony\Component\HttpFoundation\File\File;
-use Symfony\Component\Serializer\Annotation\Groups;
 use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
@@ -47,19 +46,16 @@ class Image
     /**
      * @ORM\Column(type="decimal", precision=10, scale=0)
      */
-    #[Groups(['read:image','write:image'])]
     private $taille;
 
     /**
      * @ORM\Column(type="text")
      */
-    #[Groups(['read:image','write:image'])]
     private $description;
 
     /**
      * @ORM\ManyToOne(targetEntity=Document::class, inversedBy="images")
      */
-    #[Groups(['read:image','write:image'])]
     private $document;
 
     public function getId(): ?int

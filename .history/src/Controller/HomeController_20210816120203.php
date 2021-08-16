@@ -9,9 +9,9 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class HomeController extends AbstractController
 {
-    
+    #[Route('/home', name: 'home')]
     /**
-     * @Route("/home", name="home")
+     * @Route("/home", name="app_register")
      */
     public function index(ImageRepository $imageRepository): Response
     {
